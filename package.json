@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "8.1.1",
-    "npm": "5.0.3"
+    "node": "16.18.0",
+    "npm": "8.19.2"
   },
   "scripts": {
     "start": "node index.js",
@@ -18,7 +18,8 @@
     "mongoose": "^6.6.5",
     "passport": "^0.5.3",
     "passport-google-oauth": "^2.0.0",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
