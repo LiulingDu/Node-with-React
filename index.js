@@ -21,7 +21,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-if(process.env.NODE_ENV==='production'){
+if(process.env.NODE_ENV ==='production'){
   // Express will serve up production assets, like main.js file
   app.use(express.static('client/build'));
   // Express will serve up the index.html file if it doesn't recognize the route
