@@ -11,7 +11,7 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install -legacy-peer-deps --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "lodash": "^4.17.21",
     "materialize-css": "^1.0.0",
     "mongoose": "^6.6.5",
+    "node-sass": "^7.0.3",
     "parser": "^0.1.4",
     "passport": "^0.5.3",
     "passport-google-oauth": "^2.0.0",
